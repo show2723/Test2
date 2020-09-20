@@ -9,6 +9,14 @@ namespace Test2
     {
         static void Main(string[] args)
         {
+            int A=0;
+            int B=0;
+            if (A==0)
+            {
+                B = 100;
+            }
+            Console.WriteLine(B);
+            Console.Read();
         }
     }
 }
